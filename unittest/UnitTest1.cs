@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using c7202319_Component2;
+using c7202312_Component2;
 using System.Windows.Forms;
 namespace unittest
 {

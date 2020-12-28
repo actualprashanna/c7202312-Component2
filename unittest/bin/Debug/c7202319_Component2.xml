@@ -4,222 +4,222 @@
         <name>c7202319_Component2</name>
     </assembly>
     <members>
-        <member name="T:c7202319_Component2.Circle">
+        <member name="T:c7202312_Component2.Circle">
             <summary>
             Class Circle for creating rectangle shape
             </summary>
-            <seealso cref="T:c7202319_Component2.Shape" />
+            <seealso cref="T:c7202312_Component2.Shape" />
         </member>
-        <member name="T:c7202319_Component2.Form1">
+        <member name="T:c7202312_Component2.Form1">
             <summary>
             Class for getting graphic contents.
             </summary>
         </member>
-        <member name="F:c7202319_Component2.Form1.position_Xaxis">
+        <member name="F:c7202312_Component2.Form1.position_Xaxis">
             <summary>
             position of X-axis initialized to zero.
             </summary>
         </member>
-        <member name="F:c7202319_Component2.Form1.position_Yaxis">
+        <member name="F:c7202312_Component2.Form1.position_Yaxis">
             <summary>
             position of Y-axis initialized to zero.
             </summary>
         </member>
-        <member name="F:c7202319_Component2.Form1.commands">
+        <member name="F:c7202312_Component2.Form1.commands">
             <summary>
             Commands given to string array
             </summary>
         </member>
-        <member name="F:c7202319_Component2.Form1.drawing">
+        <member name="F:c7202312_Component2.Form1.drawing">
             <summary>
             Boolean declared for drawing
             </summary>
         </member>
-        <member name="F:c7202319_Component2.Form1.loading">
+        <member name="F:c7202312_Component2.Form1.loading">
             <summary>
             Boolean declared for loading file
             </summary>
         </member>
-        <member name="F:c7202319_Component2.Form1.method">
+        <member name="F:c7202312_Component2.Form1.method">
             <summary>
             Boolean declared for method
             </summary>
         </member>
-        <member name="F:c7202319_Component2.Form1.save">
+        <member name="F:c7202312_Component2.Form1.save">
             <summary>
             Boolean declared for saving file
             </summary>
         </member>
-        <member name="F:c7202319_Component2.Form1.execute">
+        <member name="F:c7202312_Component2.Form1.execute">
             <summary>
             boolean declared for executing
             </summary>
         </member>
-        <member name="F:c7202319_Component2.Form1.clearing">
+        <member name="F:c7202312_Component2.Form1.clearing">
             <summary>
             boolean declared for clearing field
             </summary>
         </member>
-        <member name="F:c7202319_Component2.Form1.reset_bool">
+        <member name="F:c7202312_Component2.Form1.reset_bool">
             <summary>
             boolean declared for resetting positions
             </summary>
         </member>
-        <member name="F:c7202319_Component2.Form1.lineCount">
+        <member name="F:c7202312_Component2.Form1.lineCount">
             <summary>
             int declared for counting lines
             </summary>
         </member>
-        <member name="F:c7202319_Component2.Form1.lineNumberCount">
+        <member name="F:c7202312_Component2.Form1.lineNumberCount">
             <summary>
             int declared for getting line number
             </summary>
         </member>
-        <member name="F:c7202319_Component2.Form1.IfCounter">
+        <member name="F:c7202312_Component2.Form1.IfCounter">
             <summary>
             int cleared for counting if
             </summary>
         </member>
-        <member name="F:c7202319_Component2.Form1.variableDictionary">
+        <member name="F:c7202312_Component2.Form1.variableDictionary">
             <summary>
             Dictionary declared for storing variables in string
             </summary>
         </member>
-        <member name="F:c7202319_Component2.Form1.syntax">
+        <member name="F:c7202312_Component2.Form1.syntax">
             <summary>
             Array of string for storing syntax
             </summary>
         </member>
-        <member name="F:c7202319_Component2.Form1.fill">
+        <member name="F:c7202312_Component2.Form1.fill">
             <summary>
             Boolean declared for filling shapes
             </summary>
         </member>
-        <member name="F:c7202319_Component2.Form1.defaultpen">
+        <member name="F:c7202312_Component2.Form1.defaultpen">
             <summary>
             Default color of pen is assigned to black color.
             </summary>
         </member>
-        <member name="F:c7202319_Component2.Form1.sbrush">
+        <member name="F:c7202312_Component2.Form1.sbrush">
             <summary>
             Default color of brush is assigned to black color.
             </summary>
         </member>
-        <member name="M:c7202319_Component2.Form1.penswitcher(System.String)">
+        <member name="M:c7202312_Component2.Form1.penswitcher(System.String)">
             <summary>
             Method called penswitcher for switching colors of pen as user enters
             </summary>
             <param name="pencolor"></param>
         </member>
-        <member name="M:c7202319_Component2.Form1.penswitcher1(System.String)">
+        <member name="M:c7202312_Component2.Form1.penswitcher1(System.String)">
             <summary>
             Method called penswitcher1 for switching colors of fill as user enters
             </summary>
             <param name="fillcolor"></param>
         </member>
-        <member name="M:c7202319_Component2.Form1.#ctor">
+        <member name="M:c7202312_Component2.Form1.#ctor">
             <summary>
             Constructor of the class
             </summary>
         </member>
-        <member name="M:c7202319_Component2.Form1.pen_to_move(System.Int32,System.Int32)">
+        <member name="M:c7202312_Component2.Form1.pen_to_move(System.Int32,System.Int32)">
             <summary>
             Method for moving position of pen
             </summary>
             <param name="x"></param>
             <param name="y"></param>
         </member>
-        <member name="M:c7202319_Component2.Form1.suj">
+        <member name="M:c7202312_Component2.Form1.suj">
             <summary>
             Method for taking commands and giving result according to command.
             All the commands work from here.
             </summary>
         </member>
-        <member name="M:c7202319_Component2.Form1.pentodraw(System.Int32,System.Int32)">
+        <member name="M:c7202312_Component2.Form1.pentodraw(System.Int32,System.Int32)">
             <summary>
             Method for drawing line
             </summary>
             <param name="a">First position given by user</param>
             <param name="b">Second position given by user</param>
         </member>
-        <member name="M:c7202319_Component2.Form1.checkCommand(System.String)">
+        <member name="M:c7202312_Component2.Form1.checkCommand(System.String)">
             <summary>
             Method for checking the command and generating error if wrong command
             </summary>
             <param name="line"></param>
             <returns></returns>
         </member>
-        <member name="M:c7202319_Component2.Form1.button2_Click(System.Object,System.EventArgs)">
+        <member name="M:c7202312_Component2.Form1.button2_Click(System.Object,System.EventArgs)">
             <summary>
             Button for running the program.
             </summary>
             <param name="sender"></param>
             <param name="e"></param>
         </member>
-        <member name="M:c7202319_Component2.Form1.caseRun(System.String)">
+        <member name="M:c7202312_Component2.Form1.caseRun(System.String)">
             <summary>
             Method for variables, loop and method
             </summary>
             <param name="line"></param>
             <returns></returns>
         </member>
-        <member name="M:c7202319_Component2.Form1.checkLoop(System.String)">
+        <member name="M:c7202312_Component2.Form1.checkLoop(System.String)">
             <summary>
             Method for checking loop
             </summary>
             <param name="line"></param>
             <returns></returns>
         </member>
-        <member name="M:c7202319_Component2.Form1.getIfParameter(System.String)">
+        <member name="M:c7202312_Component2.Form1.getIfParameter(System.String)">
             <summary>
             Method for getting if parameter
             </summary>
             <param name="line"></param>
             <returns></returns>
         </member>
-        <member name="M:c7202319_Component2.Form1.checkVariableOperation(System.String)">
+        <member name="M:c7202312_Component2.Form1.checkVariableOperation(System.String)">
             <summary>
             Method for checking variable operators
             </summary>
             <param name="line"></param>
             <returns></returns>
         </member>
-        <member name="M:c7202319_Component2.Form1.getParameter(System.String)">
+        <member name="M:c7202312_Component2.Form1.getParameter(System.String)">
             <summary>
             Method for getting parameter
             </summary>
             <param name="line"></param>
             <returns></returns>
         </member>
-        <member name="M:c7202319_Component2.Form1.checkIfElse(System.String)">
+        <member name="M:c7202312_Component2.Form1.checkIfElse(System.String)">
             <summary>
             Method for checking if else 
             </summary>
             <param name="line"></param>
             <returns></returns>
         </member>
-        <member name="M:c7202319_Component2.Form1.checkMethod(System.String)">
+        <member name="M:c7202312_Component2.Form1.checkMethod(System.String)">
             <summary>
             Method for checking if line starts with method
             </summary>
             <param name="line"></param>
             <returns></returns>
         </member>
-        <member name="M:c7202319_Component2.Form1.checkVariableDec(System.String)">
+        <member name="M:c7202312_Component2.Form1.checkVariableDec(System.String)">
             <summary>
             Method for checking variables like if, method, loop and = operator
             </summary>
             <param name="line"></param>
             <returns></returns>
         </member>
-        <member name="M:c7202319_Component2.Form1.withVariable(System.String[])">
+        <member name="M:c7202312_Component2.Form1.withVariable(System.String[])">
             <summary>
             Method for checking lines and variables
             </summary>
             <param name="lines">Lines within textbox</param>
             <returns></returns>
         </member>
-        <member name="M:c7202319_Component2.Form1.runShape(System.String[],System.String)">
+        <member name="M:c7202312_Component2.Form1.runShape(System.String[],System.String)">
             <summary>
             Method for running shapes
             </summary>
@@ -227,17 +227,17 @@
             <param name="line"></param>
             <returns></returns>
         </member>
-        <member name="M:c7202319_Component2.Form1.clear">
+        <member name="M:c7202312_Component2.Form1.clear">
             <summary>
             Method for clearing drawing area
             </summary>
         </member>
-        <member name="M:c7202319_Component2.Form1.reset">
+        <member name="M:c7202312_Component2.Form1.reset">
             <summary>
             Method for resetting initial position
             </summary>
         </member>
-        <member name="M:c7202319_Component2.Form1.rectangle_draw(System.Int32,System.Int32,System.Int32,System.Int32)">
+        <member name="M:c7202312_Component2.Form1.rectangle_draw(System.Int32,System.Int32,System.Int32,System.Int32)">
             <summary>
             Method for drawing rectangle
             </summary>
@@ -246,7 +246,7 @@
             <param name="c"></param>
             <param name="d"></param>
         </member>
-        <member name="M:c7202319_Component2.Form1.square_draw(System.Int32,System.Int32,System.Int32)">
+        <member name="M:c7202312_Component2.Form1.square_draw(System.Int32,System.Int32,System.Int32)">
             <summary>
             Method for drawing square
             </summary>
@@ -254,7 +254,7 @@
             <param name="b"></param>
             <param name="c"></param>
         </member>
-        <member name="M:c7202319_Component2.Form1.circle_draw(System.Int32,System.Int32,System.Int32)">
+        <member name="M:c7202312_Component2.Form1.circle_draw(System.Int32,System.Int32,System.Int32)">
             <summary>
             Method for drawing circle
             </summary>
@@ -262,7 +262,7 @@
             <param name="b"></param>
             <param name="c"></param>
         </member>
-        <member name="M:c7202319_Component2.Form1.triangle_draw(System.Int32,System.Int32,System.Int32,System.Int32)">
+        <member name="M:c7202312_Component2.Form1.triangle_draw(System.Int32,System.Int32,System.Int32,System.Int32)">
             <summary>
             Method for drawing triangle
             </summary>
@@ -271,101 +271,101 @@
             <param name="c"></param>
             <param name="d"></param>
         </member>
-        <member name="M:c7202319_Component2.Form1.button1_Click(System.Object,System.EventArgs)">
+        <member name="M:c7202312_Component2.Form1.button1_Click(System.Object,System.EventArgs)">
             <summary>
             Button for reset
             </summary>
             <param name="sender"></param>
             <param name="e"></param>
         </member>
-        <member name="M:c7202319_Component2.Form1.button3_Click(System.Object,System.EventArgs)">
+        <member name="M:c7202312_Component2.Form1.button3_Click(System.Object,System.EventArgs)">
             <summary>
             triggered when clear button is clicked
             </summary>
             <param name="sender"></param>
             <param name="e"></param>
         </member>
-        <member name="M:c7202319_Component2.Form1.loadToolStripMenuItem_Click(System.Object,System.EventArgs)">
+        <member name="M:c7202312_Component2.Form1.loadToolStripMenuItem_Click(System.Object,System.EventArgs)">
             <summary>
             Menu for loading files
             </summary>
             <param name="sender"></param>
             <param name="e"></param>
         </member>
-        <member name="M:c7202319_Component2.Form1.saveToolStripMenuItem_Click(System.Object,System.EventArgs)">
+        <member name="M:c7202312_Component2.Form1.saveToolStripMenuItem_Click(System.Object,System.EventArgs)">
             <summary>
             Method for saving files
             </summary>
             <param name="sender"></param>
             <param name="e"></param>
         </member>
-        <member name="M:c7202319_Component2.Form1.textBox1_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+        <member name="M:c7202312_Component2.Form1.textBox1_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
             <summary>
             Works when textbox entered
             </summary>
             <param name="sender"></param>
             <param name="e"></param>
         </member>
-        <member name="M:c7202319_Component2.Form1.exitToolStripMenuItem_Click_1(System.Object,System.EventArgs)">
+        <member name="M:c7202312_Component2.Form1.exitToolStripMenuItem_Click_1(System.Object,System.EventArgs)">
             <summary>
             Menu for exiting application
             </summary>
             <param name="sender"></param>
             <param name="e"></param>
         </member>
-        <member name="M:c7202319_Component2.Form1.instructionsToolStripMenuItem_Click(System.Object,System.EventArgs)">
+        <member name="M:c7202312_Component2.Form1.instructionsToolStripMenuItem_Click(System.Object,System.EventArgs)">
             <summary>
             Menu for instructions about application
             </summary>
             <param name="sender"></param>
             <param name="e"></param>
         </member>
-        <member name="M:c7202319_Component2.Form1.aboutToolStripMenuItem_Click(System.Object,System.EventArgs)">
+        <member name="M:c7202312_Component2.Form1.aboutToolStripMenuItem_Click(System.Object,System.EventArgs)">
             <summary>
             Menu for aboutbox that shows about the application
             </summary>
             <param name="sender"></param>
             <param name="e"></param>
         </member>
-        <member name="F:c7202319_Component2.Form1.components">
+        <member name="F:c7202312_Component2.Form1.components">
             <summary>
             Required designer variable.
             </summary>
         </member>
-        <member name="M:c7202319_Component2.Form1.Dispose(System.Boolean)">
+        <member name="M:c7202312_Component2.Form1.Dispose(System.Boolean)">
             <summary>
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:c7202319_Component2.Form1.InitializeComponent">
+        <member name="M:c7202312_Component2.Form1.InitializeComponent">
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.
             </summary>
         </member>
-        <member name="M:c7202319_Component2.Program.Main">
+        <member name="M:c7202312_Component2.Program.Main">
             <summary>
             The main entry point for the application.
             </summary>
         </member>
-        <member name="T:c7202319_Component2.Rectangle">
+        <member name="T:c7202312_Component2.Rectangle">
             <summary>
             Class Rectangle for creating rectangle shape
             </summary>
-            <seealso cref="T:c7202319_Component2.Shape" />
+            <seealso cref="T:c7202312_Component2.Shape" />
         </member>
-        <member name="T:c7202319_Component2.Shape">
+        <member name="T:c7202312_Component2.Shape">
             <summary>
             Interface for Shape that implements shape classes
             </summary>
         </member>
-        <member name="T:c7202319_Component2.Square">
+        <member name="T:c7202312_Component2.Square">
             <summary>
             Class for square shape creating
             </summary>
         </member>
-        <member name="M:c7202319_Component2.Square.saved_values(System.Int32,System.Int32,System.Int32)">
+        <member name="M:c7202312_Component2.Square.saved_values(System.Int32,System.Int32,System.Int32)">
             <summary>
             Saveds the values.
             </summary>Method for saving value of square
@@ -373,32 +373,32 @@
             <param name="b">The b.</param>
             <param name="c">The c.</param>
         </member>
-        <member name="T:c7202319_Component2.Triangle">
+        <member name="T:c7202312_Component2.Triangle">
             <summary>
             Class for triangle shape creating
             </summary>
         </member>
-        <member name="F:c7202319_Component2.Triangle.x">
+        <member name="F:c7202312_Component2.Triangle.x">
             <summary>
             values needed for drawing circle
             </summary>
         </member>
-        <member name="F:c7202319_Component2.Triangle.y">
+        <member name="F:c7202312_Component2.Triangle.y">
             <summary>
             values needed for drawing circle
             </summary>
         </member>
-        <member name="F:c7202319_Component2.Triangle.bas">
+        <member name="F:c7202312_Component2.Triangle.bas">
             <summary>
             values needed for drawing circle
             </summary>
         </member>
-        <member name="F:c7202319_Component2.Triangle.per">
+        <member name="F:c7202312_Component2.Triangle.per">
             <summary>
             values needed for drawing circle
             </summary>
         </member>
-        <member name="M:c7202319_Component2.Triangle.saved_values(System.Int32,System.Int32,System.Int32,System.Int32)">
+        <member name="M:c7202312_Component2.Triangle.saved_values(System.Int32,System.Int32,System.Int32,System.Int32)">
             <summary>
             saved values for circle parameters and position
             </summary>
